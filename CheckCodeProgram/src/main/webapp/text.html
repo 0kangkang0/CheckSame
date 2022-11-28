@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow-y: hidden;
+        }
+
+        .left {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 600px;
+            height: 100%;
+            background: darkgray;
+        }
+
+        .right {
+            height: 100%;
+            margin-left: 600px;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+    <p style="font-size:16px;white-space: pre;"><font color="red">#include</font> <font color="red">&ltstdio.h&gt
+        d</font>oub<font color="red">l</font>e fac<font color="red">t</font>(<font color="red">int n)
+        {
+        int </font>i,s=1<font color="red">;
+    </font>i<font color="red">f(</font>n==0 ||<font color="red">n</font>==1<font color="red">)
+    </font>re<font color="red">t</font>urn<font color="red"> </font>1<font color="red">;
+        for(i=</font>1<font color="red">;i&lt</font>=<font color="red">n;i++)
+        {
+        s</font>=<font color="red">s</font>*<font color="red">i;
+    </font>}
+        <font color="red"> ret</font>u<font color="red">r</font>n s;
+        }
+        <font color="red">i</font>n<font color="red">t</font> <font color="red">ma</font>in(<font color="red">)
+            {
+        </font>int<font color="red"> </font>m,n;
+        <font color="red"> </font>in<font color="red">t</font> <font color="red">res</font>ul<font color="red">t;
+        </font>scanf("%d<font color="red"> </font>%d",&m,&n)<font color="red">;
+        </font>result=fact(n)/fact(m)/fact(n-m);<font color="red">
+            printf("</font>r<font color="red">es</font>ul<font color="red">t </font>=<font color="red"> %</font>d <font
+                color="red">",</font>re<font color="red">s</font>ul<font color="red">t)</font>;
+        return 0<font color="red">;
+            }
+        </font>
+    </div>
+    <div class="right">
+        <p style="font-size:16px;white-space: pre;"><font color="red">#include&ltstdio.h&gt
+        </font>#inclu<font color="red">d</font>e&<font color="red">l</font>tstring.h&g<font color="red">t</font>
+
+            <font color="red">int </font>mai<font color="red">n</font>(<font color="red">)
+                {
+                int </font>n<font color="red">;
+            </font>scan<font color="red">f(</font>"%d",&<font color="red">n)</font>;<font color="red">
+            </font> <font color="red"> </font>char<font color="red"> </font>str[n][80];
+            <font color="red"> </font>in<font color="red">t </font>i,j,max=0<font color="red">;
+                for(i=</font>0<font color="red">;i&lt;n;i++)
+                {
+            </font>scanf("%<font color="red">s</font>",&<font color="red">s</font>tr[<font color="red">i</font>])<font
+                    color="red">;
+            </font>if(st<font color="red">r</font>l<font color="red">e</font>n(s<font color="red">tr</font>[<font
+                    color="red">i</font>])&g<font color="red">tma</font>x<font color="red">)
+            </font> <font color="red">{
+            </font> <font color="red"> </font>max=s<font color="red">tr</font>l<font color="red">e</font>n(<font
+                    color="red">st</font>r[i])<font color="red">;
+            </font> <font color="red"> </font>j=i<font color="red">;</font>
+            }<font color="red">
+            </font>}<font color="red">
+                printf("</font>The long<font color="red">est </font>is:<font color="red"> %</font>s\n<font color="red">",st</font>r[j]<font
+                    color="red">);
+                }
+            </font></p>
+    </div>
+</body>
+</html>

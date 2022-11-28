@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .left {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 50%;
+            background: darkgray;
+        }
+
+        .right {
+            margin-left: 50%;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+    <p style="font-size:16px;white-space: pre;"><font style="background: rgba(255,200,210,0.6)">#include&lt;stdio.h&gt;
+        #include&lt;</font>s<font style="background: rgba(255,200,210,0.6)">t</font>ring<font
+            style="background: rgba(255,200,210,0.6)">.h&gt;
+        int main(){
+    </font>char<font style="background: rgba(255,200,210,0.6)"> </font>m[10];
+        <font style="background: rgba(255,200,210,0.6)"> </font>sca<font
+                style="background: rgba(255,200,210,0.6)">n</font>f("%<font
+                style="background: rgba(255,200,210,0.6)">s</font>",<font
+                style="background: rgba(255,200,210,0.6)"> </font>m)<font style="background: rgba(255,200,210,0.6)">;
+        </font>for<font style="background: rgba(255,200,210,0.6)"> </font>(<font
+                style="background: rgba(255,200,210,0.6)">int i = 0; i </font>&lt;<font
+                style="background: rgba(255,200,210,0.6)"> </font>strlen(m)<font
+                style="background: rgba(255,200,210,0.6)">; </font>i++){<font style="background: rgba(255,200,210,0.6)">
+            s</font>wit<font style="background: rgba(255,200,210,0.6)">c</font>h<font
+                style="background: rgba(255,200,210,0.6)"> </font>(m[i]<font
+                style="background: rgba(255,200,210,0.6)">)</font>{<font style="background: rgba(255,200,210,0.6)">
+        </font>case<font style="background: rgba(255,200,210,0.6)"> </font>'-':<font
+                style="background: rgba(255,200,210,0.6)">printf("fu");
+        </font>break<font style="background: rgba(255,200,210,0.6)">;
+            c</font>a<font style="background: rgba(255,200,210,0.6)">s</font>e<font
+                style="background: rgba(255,200,210,0.6)"> </font>'<font
+                style="background: rgba(255,200,210,0.6)">0</font>':pr<font
+                style="background: rgba(255,200,210,0.6)">i</font>ntf("ling"<font
+                style="background: rgba(255,200,210,0.6)">)</font>;<font
+                style="background: rgba(255,200,210,0.6)"> </font>
+        <font style="background: rgba(255,200,210,0.6)"> </font>break<font style="background: rgba(255,200,210,0.6)">;
+        </font>ca<font style="background: rgba(255,200,210,0.6)">s</font>e<font
+                style="background: rgba(255,200,210,0.6)"> </font>'1':printf("yi")<font
+                style="background: rgba(255,200,210,0.6)">; </font>
+        <font style="background: rgba(255,200,210,0.6)"> </font>break;<font style="background: rgba(255,200,210,0.6)">
+        </font>case '2':pr<font style="background: rgba(255,200,210,0.6)">int</font>f("er"<font
+                style="background: rgba(255,200,210,0.6)">);
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>brea<font
+                style="background: rgba(255,200,210,0.6)">k;
+        </font>case<font style="background: rgba(255,200,210,0.6)"> </font>'3':<font
+                style="background: rgba(255,200,210,0.6)">printf("</font>san<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font>bre<font style="background: rgba(255,200,210,0.6)">a</font>k;<font
+                style="background: rgba(255,200,210,0.6)">
+            case </font>'4'<font style="background: rgba(255,200,210,0.6)">:printf("</font>s<font
+                style="background: rgba(255,200,210,0.6)">i");</font> <font style="background: rgba(255,200,210,0.6)">
+            break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>'5'<font
+                style="background: rgba(255,200,210,0.6)">:printf("</font>wu<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>'6'<font
+                style="background: rgba(255,200,210,0.6)">:printf("</font>liu<font
+                style="background: rgba(255,200,210,0.6)">");</font> <font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>'7'<font
+                style="background: rgba(255,200,210,0.6)">:printf("</font>q<font
+                style="background: rgba(255,200,210,0.6)">i");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>'8'<font
+                style="background: rgba(255,200,210,0.6)">:printf("</font>ba<font
+                style="background: rgba(255,200,210,0.6)">");</font> <font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>'9'<font
+                style="background: rgba(255,200,210,0.6)">:printf("</font>j<font
+                style="background: rgba(255,200,210,0.6)">iu");</font> <font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> }<font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)">if </font>(i<font
+                style="background: rgba(255,200,210,0.6)"> </font>&lt;<font
+                style="background: rgba(255,200,210,0.6)"> </font>st<font
+                style="background: rgba(255,200,210,0.6)">r</font>l<font
+                style="background: rgba(255,200,210,0.6)">e</font>n(m)-1){<font
+                style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> printf("</font> <font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> } <font style="background: rgba(255,200,210,0.6)">
+            }</font>
+        return<font style="background: rgba(255,200,210,0.6)"> </font>0;<font style="background: rgba(255,200,210,0.6)">
+            }
+        </font></p>
+</div>
+<div class="right">
+    <p style="font-size:16px;white-space: pre;"><font style="background: rgba(255,200,210,0.6)">#include</font> <font
+            style="background: rgba(255,200,210,0.6)">&lt;stdio.h&gt;
+        #include</font> <font style="background: rgba(255,200,210,0.6)">&lt;</font>ma<font
+            style="background: rgba(255,200,210,0.6)">t</font>h<font
+            style="background: rgba(255,200,210,0.6)">.h&gt;</font>
+
+        int pinyin(int x); //遵循C语言的模式，采用自定函数将部分运算转移出主函数<font style="background: rgba(255,200,210,0.6)">
+            int main()</font>
+        <font style="background: rgba(255,200,210,0.6)">{
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>i<font
+                style="background: rgba(255,200,210,0.6)">n</font>t z<font
+                style="background: rgba(255,200,210,0.6)">s</font> =<font
+                style="background: rgba(255,200,210,0.6)"> </font>0<font
+                style="background: rgba(255,200,210,0.6)">;</font> //整数<font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> int i = 0;</font>
+        <font style="background: rgba(255,200,210,0.6)"> i</font>nt cs<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>1<font
+                style="background: rgba(255,200,210,0.6)">;</font> <font
+                style="background: rgba(255,200,210,0.6)"> </font>//除数<font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>double<font
+                style="background: rgba(255,200,210,0.6)"> </font>j;
+
+        <font style="background: rgba(255,200,210,0.6)"> sc</font>anf("%d",<font
+                style="background: rgba(255,200,210,0.6)"> </font>&zs<font
+                style="background: rgba(255,200,210,0.6)">)</font>;
+        <font style="background: rgba(255,200,210,0.6)">
+        </font>if<font style="background: rgba(255,200,210,0.6)"> </font>(zs<font
+                style="background: rgba(255,200,210,0.6)"> </font>&lt;<font
+                style="background: rgba(255,200,210,0.6)"> </font>0)
+        <font style="background: rgba(255,200,210,0.6)"> </font>{
+        <font style="background: rgba(255,200,210,0.6)">printf("fu</font> <font
+                style="background: rgba(255,200,210,0.6)">")</font>;
+        zs = zs * -1<font style="background: rgba(255,200,210,0.6)">;</font>
+        }
+        <font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>int<font
+                style="background: rgba(255,200,210,0.6)"> </font>lzs;<font
+                style="background: rgba(255,200,210,0.6)"> </font>//留存这个整数
+        <font style="background: rgba(255,200,210,0.6)"> </font>lzs<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs<font
+                style="background: rgba(255,200,210,0.6)">;</font>
+        <font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>//计算位数，从低位向高位拆数
+        <font style="background: rgba(255,200,210,0.6)"> </font>for<font
+                style="background: rgba(255,200,210,0.6)"> </font>(i<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>0;<font style="background: rgba(255,200,210,0.6)">
+            cs</font> !=<font style="background: rgba(255,200,210,0.6)"> 0</font>; <font
+                style="background: rgba(255,200,210,0.6)">i</font>++<font
+                style="background: rgba(255,200,210,0.6)">)</font>
+        <font style="background: rgba(255,200,210,0.6)"> </font>{
+        int<font style="background: rgba(255,200,210,0.6)"> </font>a<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>0;
+        a<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs<font
+                style="background: rgba(255,200,210,0.6)"> </font>%<font
+                style="background: rgba(255,200,210,0.6)"> </font>10;
+        zs<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs<font
+                style="background: rgba(255,200,210,0.6)"> </font>/<font
+                style="background: rgba(255,200,210,0.6)"> </font>10<font style="background: rgba(255,200,210,0.6)">;
+        </font> cs<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs;
+        <font style="background: rgba(255,200,210,0.6)"> </font>}
+
+        <font style="background: rgba(255,200,210,0.6)"> </font>z<font
+                style="background: rgba(255,200,210,0.6)">s</font> =<font
+                style="background: rgba(255,200,210,0.6)"> </font>lzs<font
+                style="background: rgba(255,200,210,0.6)">;</font> <font
+                style="background: rgba(255,200,210,0.6)"> </font>//恢复这个整数
+
+        <font style="background: rgba(255,200,210,0.6)"> </font>for<font
+                style="background: rgba(255,200,210,0.6)"> </font>(;<font
+                style="background: rgba(255,200,210,0.6)"> </font>i<font
+                style="background: rgba(255,200,210,0.6)"> </font>!=<font
+                style="background: rgba(255,200,210,0.6)"> </font>0;)
+        <font style="background: rgba(255,200,210,0.6)"> </font>{<font style="background: rgba(255,200,210,0.6)">
+        </font> j<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>pow<font
+                style="background: rgba(255,200,210,0.6)"> </font>(10,(i<font
+                style="background: rgba(255,200,210,0.6)"> </font>-<font
+                style="background: rgba(255,200,210,0.6)"> </font>1));<font
+                style="background: rgba(255,200,210,0.6)"> </font>//关键所在，从高位向低位拆数
+        int<font style="background: rgba(255,200,210,0.6)"> </font>k<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>(<font
+                style="background: rgba(255,200,210,0.6)">int)</font>j<font
+                style="background: rgba(255,200,210,0.6)">;</font>
+        <font style="background: rgba(255,200,210,0.6)">
+        </font> int<font style="background: rgba(255,200,210,0.6)"> </font>mwsz<font
+                style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>0;<font
+                style="background: rgba(255,200,210,0.6)"> </font>//每位数字
+        mwsz<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs<font
+                style="background: rgba(255,200,210,0.6)"> </font>/<font style="background: rgba(255,200,210,0.6)"> k;
+        </font> pinyin(<font style="background: rgba(255,200,210,0.6)"> </font>mwsz<font
+                style="background: rgba(255,200,210,0.6)"> </font>);<font
+                style="background: rgba(255,200,210,0.6)"> </font>//调用自定义函数，读出汉语拼音，将mwsz的值传出主函数
+
+        i--;
+
+        if<font style="background: rgba(255,200,210,0.6)"> </font>(i<font
+                style="background: rgba(255,200,210,0.6)"> </font>!=<font
+                style="background: rgba(255,200,210,0.6)"> </font>0)
+        {
+        <font style="background: rgba(255,200,210,0.6)"> printf("</font> <font
+                style="background: rgba(255,200,210,0.6)">");</font> <font
+                style="background: rgba(255,200,210,0.6)"> </font>//空格的输出
+        }
+        <font style="background: rgba(255,200,210,0.6)">
+        </font> zs<font style="background: rgba(255,200,210,0.6)"> </font>=<font
+                style="background: rgba(255,200,210,0.6)"> </font>zs<font
+                style="background: rgba(255,200,210,0.6)"> </font>%<font
+                style="background: rgba(255,200,210,0.6)"> </font>k;
+        }
+
+        <font style="background: rgba(255,200,210,0.6)"> </font>return<font
+                style="background: rgba(255,200,210,0.6)"> </font>0;
+        }<font style="background: rgba(255,200,210,0.6)"> </font>
+
+        int<font style="background: rgba(255,200,210,0.6)"> </font>pinyin(int<font
+                style="background: rgba(255,200,210,0.6)"> </font>x)<font
+                style="background: rgba(255,200,210,0.6)"> </font>//自定义函数，通过m<font
+                style="background: rgba(255,200,210,0.6)">a</font>in函数中的调用来实现功能，x是整形，接收同为整形的mwsz
+        {<font style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>switch<font
+                style="background: rgba(255,200,210,0.6)"> </font>(<font
+                style="background: rgba(255,200,210,0.6)"> </font>x<font
+                style="background: rgba(255,200,210,0.6)"> </font>)<font
+                style="background: rgba(255,200,210,0.6)"> </font>
+        <font style="background: rgba(255,200,210,0.6)"> </font>{
+        <font style="background: rgba(255,200,210,0.6)">case </font>0<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>l<font style="background: rgba(255,200,210,0.6)">i</font>ng<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>break;
+        case<font style="background: rgba(255,200,210,0.6)"> </font>1:<font
+                style="background: rgba(255,200,210,0.6)"> </font>
+        <font style="background: rgba(255,200,210,0.6)"> </font>printf("yi");
+        <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>2<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>er<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>3<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>san<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>4<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>s<font style="background: rgba(255,200,210,0.6)">i");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>5<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>wu<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> <font style="background: rgba(255,200,210,0.6)">case </font>6<font
+                style="background: rgba(255,200,210,0.6)">:</font>
+        <font style="background: rgba(255,200,210,0.6)">printf("</font>l<font style="background: rgba(255,200,210,0.6)">iu");
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>break;
+        case<font style="background: rgba(255,200,210,0.6)"> </font>7:
+        <font style="background: rgba(255,200,210,0.6)"> </font>printf("qi");
+        <font style="background: rgba(255,200,210,0.6)"> break;
+        </font> case<font style="background: rgba(255,200,210,0.6)"> </font>8:<font
+                style="background: rgba(255,200,210,0.6)">
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>pr<font
+                style="background: rgba(255,200,210,0.6)">i</font>nt<font
+                style="background: rgba(255,200,210,0.6)">f</font>("ba");
+        <font style="background: rgba(255,200,210,0.6)"> </font>b<font
+                style="background: rgba(255,200,210,0.6)">re</font>ak;<font style="background: rgba(255,200,210,0.6)">
+        </font>case<font style="background: rgba(255,200,210,0.6)"> </font>9:
+        <font style="background: rgba(255,200,210,0.6)"> printf("</font>jiu<font
+                style="background: rgba(255,200,210,0.6)">");
+        </font> <font style="background: rgba(255,200,210,0.6)"> </font>break;<font
+                style="background: rgba(255,200,210,0.6)">
+            }
+            }
+        </font></p>
+</div>
+</body>
+</html>
